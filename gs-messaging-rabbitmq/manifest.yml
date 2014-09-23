@@ -1,0 +1,7 @@
+---
+applications:
+- name: rabbit-s-test
+  memory: 512M
+  instances: 1
+  host: rabbit-s-test
+  path: build/libs/gs-messaging-rabbitmq-0.1.0.jar
