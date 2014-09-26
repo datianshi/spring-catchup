@@ -1,0 +1,10 @@
+---
+applications:
+- name: mongo-s-test
+  memory: 512M
+  instances: 1
+  host: rabbit-s-test
+  path: build/libs/gs-accessing-data-mongodb-0.1.0.jar
+  services:
+  - mongo-sandbox 
+  no-route: true
